@@ -27,14 +27,18 @@ e-Arsip adalah arsip yang diciptakan (dibuat atau diterima dan disimpan) dalam f
 - Surat Keluar
 
 ## Instalasi
-- PHP 7.4
+- PHP 7.4 atau lebih
 - CodeIgniter 4
 - MySQL
 
 ## Cara Install
 
 - Clone atau download source code
-Para terminal, clone repo git@github.com:dikdiktasdik/e-arsip.git
-Jika tidak menggunakan Git, silakan Download Zip dan extract pada direktori web server (misal: xampp/htdocs)
-Import file database pada Folder DB
-Koreksi file application/config/database.php sesuaikan user dan password dengan localhost.
+- Para terminal, clone repo github.com/farozy/aplikasi-e-arsip-ci-4.git
+- Jika tidak menggunakan Git, silakan Download Zip dan extract pada direktori web server (misal: xampp/htdocs)
+- Buat databse terlebih dahulu dengan nama e_arsip
+- Kemudian import file sqlnya pada database
+
+## Cara Login
+- username : admin
+- password : admin
