@@ -1,0 +1,199 @@
+/* Login */
+@media (max-width: 767px) {
+  .form-group > label.text-right {
+    text-align: left !important;
+  }
+}
+.input-group input {
+	height: 50px;
+	width: 89%;
+	border: 1px solid silver;
+	padding-left: 15px;
+	outline: none;
+	font-size: 14px;
+	transition: .4s;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+input:focus, #password:focus {
+	border: 1px solid #1DA1F2;
+}
+
+#password {
+	height: 50px;
+	width: 79%;
+	border: 1px solid silver;
+	padding-left: 15px;
+	outline: none;
+	font-size: 19px;
+	transition: .4s;
+}
+.username, .password {
+	position: absolute;
+	top: 50%;
+	left: 60px;
+	transform: translateY(-50%);
+	pointer-events: none;
+	color: grey;
+	font-size:  18px;
+	transition:  .5s;
+}
+
+input:focus ~ .username,
+input:focus ~ .password {
+	transform: translateY(-38px);
+	background:  white;
+	font-size:  16px;
+	color:  #1DA1F2;
+}
+
+input:valid ~ .username,
+input:valid ~ .password {
+  transform: translateY(-38px);
+  background: white;
+  font-size: 16px;
+  color: #1DA1F2;
+}
+
+/* Register */
+.show1 {
+    position: absolute;
+    left: 90%;
+    top: 17px;
+    cursor: pointer;
+}
+.show2 {
+    position: absolute;
+    left: 90%;
+    top: 17px;
+    cursor: pointer;
+}
+#view_pass, #view_pswd{
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  visibility: hidden;
+}
+input:valid ~ #view_pass{;
+    visibility: visible;
+}
+input:valid ~ #view_pswd{;
+    visibility: visible;
+}
+
+.tanggal_lahir {
+    position: relative;
+    width: 150px; height: 20px;
+    color: white;
+}
+
+.tanggal_lahir:before {
+    position: absolute;
+    top: 3px; left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+.tanggal_lahir::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+.tanggal_lahir::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
+
+.select2-selection__rendered {
+    line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+    height: 38px !important;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+
+div.dt-button.buttons-columnVisibility.active {
+}
+
+div.dt-button-background {
+  display: none !important;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+table.dataTable {
+    margin-top: -100px;
+}
+.select2-selection__rendered {
+  margin-top: 3px;
+}
+.select2-selection__arrow {
+  margin-top: 3px;
+}
+.select2-selection__clear {
+    margin-top: 5px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  font-weight:  bold;
+  border-bottom: 2px solid blue;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #7B1FA2;
+}
+
+.custom-control-input:checked~.custom-control-label.tidak_aktif::before {
+  background-color: red;
+}
+
+.custom-control-input:checked~.custom-control-label.aktif::before {
+  background-color: green;
+}
+
+.form-control {
+    height: 38px
+}
+
+table.dataTable {
+    margin-top: -20px !important;   
+}
+
+

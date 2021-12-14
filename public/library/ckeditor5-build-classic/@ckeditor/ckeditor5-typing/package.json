@@ -1,0 +1,88 @@
+{
+  "_from": "@ckeditor/ckeditor5-typing",
+  "_id": "@ckeditor/ckeditor5-typing@29.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Kb+GLR4SlIpvvDINLv+0GmPATlIAIqSHPcBwP7xQUQzhYGgJQXDTexcKI/Lx/mbgXE8mNz1QxUzUtB4od/6Wsw==",
+  "_location": "/@ckeditor/ckeditor5-typing",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ckeditor/ckeditor5-typing",
+    "name": "@ckeditor/ckeditor5-typing",
+    "escapedName": "@ckeditor%2fckeditor5-typing",
+    "scope": "@ckeditor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/",
+    "/@ckeditor/ckeditor5-build-classic",
+    "/@ckeditor/ckeditor5-widget",
+    "/ckeditor5"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ckeditor/ckeditor5-typing/-/ckeditor5-typing-29.2.0.tgz",
+  "_shasum": "6c5859e424834b443dbb4d975f1f4f04242d4c78",
+  "_spec": "@ckeditor/ckeditor5-typing",
+  "_where": "C:\\Users\\Fakhrur Rozy",
+  "author": {
+    "name": "CKSource",
+    "url": "http://cksource.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^29.2.0",
+    "@ckeditor/ckeditor5-engine": "^29.2.0",
+    "@ckeditor/ckeditor5-utils": "^29.2.0",
+    "lodash-es": "^4.17.15"
+  },
+  "deprecated": false,
+  "description": "Typing feature for CKEditor 5.",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^29.2.0",
+    "@ckeditor/ckeditor5-block-quote": "^29.2.0",
+    "@ckeditor/ckeditor5-code-block": "^29.2.0",
+    "@ckeditor/ckeditor5-editor-classic": "^29.2.0",
+    "@ckeditor/ckeditor5-enter": "^29.2.0",
+    "@ckeditor/ckeditor5-essentials": "^29.2.0",
+    "@ckeditor/ckeditor5-heading": "^29.2.0",
+    "@ckeditor/ckeditor5-image": "^29.2.0",
+    "@ckeditor/ckeditor5-link": "^29.2.0",
+    "@ckeditor/ckeditor5-list": "^29.2.0",
+    "@ckeditor/ckeditor5-paragraph": "^29.2.0",
+    "@ckeditor/ckeditor5-undo": "^29.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=5.7.1"
+  },
+  "files": [
+    "lang",
+    "src",
+    "theme",
+    "ckeditor5-metadata.json"
+  ],
+  "homepage": "https://ckeditor.com/ckeditor-5",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-dll"
+  ],
+  "license": "GPL-2.0-or-later",
+  "main": "src/index.js",
+  "name": "@ckeditor/ckeditor5-typing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckeditor/ckeditor5.git",
+    "directory": "packages/ckeditor5-typing"
+  },
+  "version": "29.2.0"
+}
